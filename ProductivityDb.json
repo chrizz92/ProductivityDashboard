@@ -1,0 +1,732 @@
+{
+  "persons": [
+    {
+      "name": "Mann",
+      "firstname": "Caldwell",
+      "id": 1,
+      "department": "Development",
+      "grossincome": "€4405",
+      "leasing": "No"
+    },
+    {
+      "name": "Powell",
+      "firstname": "Dai",
+      "id": 2,
+      "department": "Support",
+      "grossincome": "€4470",
+      "leasing": "Yes"
+    },
+    {
+      "name": "Sanchez",
+      "firstname": "Hu",
+      "id": 3,
+      "department": "Sales",
+      "grossincome": "€4600",
+      "leasing": "No"
+    },
+    {
+      "name": "Mcpherson",
+      "firstname": "Carson",
+      "id": 4,
+      "department": "Sales",
+      "grossincome": "€1718",
+      "leasing": "No"
+    },
+    {
+      "name": "Russell",
+      "firstname": "Jenna",
+      "id": 5,
+      "department": "Human Ressources",
+      "grossincome": "€3636",
+      "leasing": "No"
+    },
+    {
+      "name": "Battle",
+      "firstname": "Louis",
+      "id": 6,
+      "department": "Development",
+      "grossincome": "€1545",
+      "leasing": "No"
+    },
+    {
+      "name": "Burch",
+      "firstname": "Carla",
+      "id": 7,
+      "department": "Human Ressources",
+      "grossincome": "€2115",
+      "leasing": "No"
+    },
+    {
+      "name": "Bray",
+      "firstname": "Eaton",
+      "id": 8,
+      "department": "Sales",
+      "grossincome": "€2363",
+      "leasing": "No"
+    },
+    {
+      "name": "Vaughn",
+      "firstname": "Yvette",
+      "id": 9,
+      "department": "Development",
+      "grossincome": "€3137",
+      "leasing": "No"
+    },
+    {
+      "name": "Tyler",
+      "firstname": "Mollie",
+      "id": 10,
+      "department": "Accounting",
+      "grossincome": "€1946",
+      "leasing": "Yes"
+    },
+    {
+      "name": "Fisher",
+      "firstname": "Kalia",
+      "id": 11,
+      "department": "Accounting",
+      "grossincome": "€4322",
+      "leasing": "No"
+    },
+    {
+      "name": "Franks",
+      "firstname": "Oleg",
+      "id": 12,
+      "department": "Sales",
+      "grossincome": "€1905",
+      "leasing": "No"
+    },
+    {
+      "name": "Anthony",
+      "firstname": "Damon",
+      "id": 13,
+      "department": "Human Ressources",
+      "grossincome": "€3357",
+      "leasing": "Yes"
+    },
+    {
+      "name": "Dyer",
+      "firstname": "Nelle",
+      "id": 14,
+      "department": "Sales",
+      "grossincome": "€4567",
+      "leasing": "Yes"
+    },
+    {
+      "name": "Grimes",
+      "firstname": "Colt",
+      "id": 15,
+      "department": "Development",
+      "grossincome": "€2319",
+      "leasing": "Yes"
+    }
+  ],
+  "productivity": [
+    {
+      "id": 1,
+      "person_id": 9,
+      "units": 6,
+      "project": "Chami"
+    },
+    {
+      "id": 2,
+      "person_id": 10,
+      "units": 9,
+      "project": "Yahoo"
+    },
+    {
+      "id": 3,
+      "person_id": 4,
+      "units": 8,
+      "project": "Sibelius"
+    },
+    {
+      "id": 4,
+      "person_id": 1,
+      "units": 9,
+      "project": "Apple"
+    },
+    {
+      "id": 5,
+      "person_id": 6,
+      "units": 5,
+      "project": "Finale"
+    },
+    {
+      "id": 6,
+      "person_id": 9,
+      "units": 3,
+      "project": "Apple"
+    },
+    {
+      "id": 7,
+      "person_id": 2,
+      "units": 5,
+      "project": "Borland"
+    },
+    {
+      "id": 8,
+      "person_id": 12,
+      "units": 2,
+      "project": "Chami"
+    },
+    {
+      "id": 9,
+      "person_id": 4,
+      "units": 7,
+      "project": "Amazon"
+    },
+    {
+      "id": 10,
+      "person_id": 2,
+      "units": 7,
+      "project": "Finale"
+    },
+    {
+      "id": 11,
+      "person_id": 11,
+      "units": 5,
+      "project": "Cakewalk"
+    },
+    {
+      "id": 12,
+      "person_id": 9,
+      "units": 4,
+      "project": "Lavasoft"
+    },
+    {
+      "id": 13,
+      "person_id": 12,
+      "units": 4,
+      "project": "Yahoo"
+    },
+    {
+      "id": 14,
+      "person_id": 9,
+      "units": 3,
+      "project": "Google"
+    },
+    {
+      "id": 15,
+      "person_id": 11,
+      "units": 9,
+      "project": "Apple"
+    },
+    {
+      "id": 16,
+      "person_id": 10,
+      "units": 3,
+      "project": "Yahoo"
+    },
+    {
+      "id": 17,
+      "person_id": 1,
+      "units": 3,
+      "project": "Lavasoft"
+    },
+    {
+      "id": 18,
+      "person_id": 15,
+      "units": 9,
+      "project": "Amazon"
+    },
+    {
+      "id": 19,
+      "person_id": 4,
+      "units": 4,
+      "project": "Yahoo"
+    },
+    {
+      "id": 20,
+      "person_id": 6,
+      "units": 4,
+      "project": "Microsoft"
+    },
+    {
+      "id": 21,
+      "person_id": 6,
+      "units": 8,
+      "project": "Apple"
+    },
+    {
+      "id": 22,
+      "person_id": 5,
+      "units": 5,
+      "project": "Adobe"
+    },
+    {
+      "id": 23,
+      "person_id": 1,
+      "units": 8,
+      "project": "Amazon"
+    },
+    {
+      "id": 24,
+      "person_id": 10,
+      "units": 4,
+      "project": "Yahoo"
+    },
+    {
+      "id": 25,
+      "person_id": 3,
+      "units": 6,
+      "project": "Cakewalk"
+    },
+    {
+      "id": 26,
+      "person_id": 3,
+      "units": 9,
+      "project": "Sibelius"
+    },
+    {
+      "id": 27,
+      "person_id": 14,
+      "units": 5,
+      "project": "Microsoft"
+    },
+    {
+      "id": 28,
+      "person_id": 12,
+      "units": 10,
+      "project": "Yahoo"
+    },
+    {
+      "id": 29,
+      "person_id": 13,
+      "units": 4,
+      "project": "Sibelius"
+    },
+    {
+      "id": 30,
+      "person_id": 11,
+      "units": 4,
+      "project": "Apple"
+    },
+    {
+      "id": 31,
+      "person_id": 10,
+      "units": 9,
+      "project": "Borland"
+    },
+    {
+      "id": 32,
+      "person_id": 9,
+      "units": 10,
+      "project": "Apple"
+    },
+    {
+      "id": 33,
+      "person_id": 11,
+      "units": 8,
+      "project": "Cakewalk"
+    },
+    {
+      "id": 34,
+      "person_id": 7,
+      "units": 4,
+      "project": "Google"
+    },
+    {
+      "id": 35,
+      "person_id": 6,
+      "units": 8,
+      "project": "Google"
+    },
+    {
+      "id": 36,
+      "person_id": 13,
+      "units": 7,
+      "project": "Microsoft"
+    },
+    {
+      "id": 37,
+      "person_id": 8,
+      "units": 1,
+      "project": "Microsoft"
+    },
+    {
+      "id": 38,
+      "person_id": 1,
+      "units": 5,
+      "project": "Chami"
+    },
+    {
+      "id": 39,
+      "person_id": 1,
+      "units": 8,
+      "project": "Microsoft"
+    },
+    {
+      "id": 40,
+      "person_id": 6,
+      "units": 1,
+      "project": "Amazon"
+    },
+    {
+      "id": 41,
+      "person_id": 4,
+      "units": 8,
+      "project": "Adobe"
+    },
+    {
+      "id": 42,
+      "person_id": 3,
+      "units": 7,
+      "project": "Amazon"
+    },
+    {
+      "id": 43,
+      "person_id": 6,
+      "units": 9,
+      "project": "Google"
+    },
+    {
+      "id": 44,
+      "person_id": 3,
+      "units": 7,
+      "project": "Lavasoft"
+    },
+    {
+      "id": 45,
+      "person_id": 5,
+      "units": 6,
+      "project": "Yahoo"
+    },
+    {
+      "id": 46,
+      "person_id": 5,
+      "units": 9,
+      "project": "Sibelius"
+    },
+    {
+      "id": 47,
+      "person_id": 3,
+      "units": 10,
+      "project": "Adobe"
+    },
+    {
+      "id": 48,
+      "person_id": 12,
+      "units": 10,
+      "project": "Microsoft"
+    },
+    {
+      "id": 49,
+      "person_id": 5,
+      "units": 8,
+      "project": "Chami"
+    },
+    {
+      "id": 50,
+      "person_id": 2,
+      "units": 6,
+      "project": "Microsoft"
+    },
+    {
+      "id": 51,
+      "person_id": 14,
+      "units": 9,
+      "project": "Chami"
+    },
+    {
+      "id": 52,
+      "person_id": 9,
+      "units": 3,
+      "project": "Cakewalk"
+    },
+    {
+      "id": 53,
+      "person_id": 11,
+      "units": 10,
+      "project": "Amazon"
+    },
+    {
+      "id": 54,
+      "person_id": 4,
+      "units": 7,
+      "project": "Sibelius"
+    },
+    {
+      "id": 55,
+      "person_id": 12,
+      "units": 3,
+      "project": "Google"
+    },
+    {
+      "id": 56,
+      "person_id": 7,
+      "units": 8,
+      "project": "Cakewalk"
+    },
+    {
+      "id": 57,
+      "person_id": 9,
+      "units": 6,
+      "project": "Adobe"
+    },
+    {
+      "id": 58,
+      "person_id": 4,
+      "units": 6,
+      "project": "Cakewalk"
+    },
+    {
+      "id": 59,
+      "person_id": 14,
+      "units": 5,
+      "project": "Amazon"
+    },
+    {
+      "id": 60,
+      "person_id": 7,
+      "units": 4,
+      "project": "Chami"
+    },
+    {
+      "id": 61,
+      "person_id": 6,
+      "units": 10,
+      "project": "Microsoft"
+    },
+    {
+      "id": 62,
+      "person_id": 14,
+      "units": 1,
+      "project": "Chami"
+    },
+    {
+      "id": 63,
+      "person_id": 4,
+      "units": 4,
+      "project": "Amazon"
+    },
+    {
+      "id": 64,
+      "person_id": 15,
+      "units": 5,
+      "project": "Finale"
+    },
+    {
+      "id": 65,
+      "person_id": 6,
+      "units": 7,
+      "project": "Borland"
+    },
+    {
+      "id": 66,
+      "person_id": 13,
+      "units": 5,
+      "project": "Amazon"
+    },
+    {
+      "id": 67,
+      "person_id": 6,
+      "units": 6,
+      "project": "Yahoo"
+    },
+    {
+      "id": 68,
+      "person_id": 6,
+      "units": 7,
+      "project": "Amazon"
+    },
+    {
+      "id": 69,
+      "person_id": 2,
+      "units": 6,
+      "project": "Finale"
+    },
+    {
+      "id": 70,
+      "person_id": 10,
+      "units": 5,
+      "project": "Chami"
+    },
+    {
+      "id": 71,
+      "person_id": 1,
+      "units": 8,
+      "project": "Amazon"
+    },
+    {
+      "id": 72,
+      "person_id": 9,
+      "units": 9,
+      "project": "Lavasoft"
+    },
+    {
+      "id": 73,
+      "person_id": 6,
+      "units": 6,
+      "project": "Borland"
+    },
+    {
+      "id": 74,
+      "person_id": 12,
+      "units": 10,
+      "project": "Amazon"
+    },
+    {
+      "id": 75,
+      "person_id": 3,
+      "units": 9,
+      "project": "Microsoft"
+    },
+    {
+      "id": 76,
+      "person_id": 10,
+      "units": 10,
+      "project": "Finale"
+    },
+    {
+      "id": 77,
+      "person_id": 8,
+      "units": 8,
+      "project": "Microsoft"
+    },
+    {
+      "id": 78,
+      "person_id": 5,
+      "units": 9,
+      "project": "Amazon"
+    },
+    {
+      "id": 79,
+      "person_id": 2,
+      "units": 2,
+      "project": "Microsoft"
+    },
+    {
+      "id": 80,
+      "person_id": 4,
+      "units": 3,
+      "project": "Yahoo"
+    },
+    {
+      "id": 81,
+      "person_id": 4,
+      "units": 2,
+      "project": "Chami"
+    },
+    {
+      "id": 82,
+      "person_id": 3,
+      "units": 3,
+      "project": "Sibelius"
+    },
+    {
+      "id": 83,
+      "person_id": 10,
+      "units": 4,
+      "project": "Microsoft"
+    },
+    {
+      "id": 84,
+      "person_id": 14,
+      "units": 8,
+      "project": "Amazon"
+    },
+    {
+      "id": 85,
+      "person_id": 4,
+      "units": 7,
+      "project": "Borland"
+    },
+    {
+      "id": 86,
+      "person_id": 13,
+      "units": 6,
+      "project": "Cakewalk"
+    },
+    {
+      "id": 87,
+      "person_id": 2,
+      "units": 3,
+      "project": "Microsoft"
+    },
+    {
+      "id": 88,
+      "person_id": 14,
+      "units": 1,
+      "project": "Apple"
+    },
+    {
+      "id": 89,
+      "person_id": 11,
+      "units": 2,
+      "project": "Borland"
+    },
+    {
+      "id": 90,
+      "person_id": 12,
+      "units": 7,
+      "project": "Sibelius"
+    },
+    {
+      "id": 91,
+      "person_id": 13,
+      "units": 4,
+      "project": "Microsoft"
+    },
+    {
+      "id": 92,
+      "person_id": 4,
+      "units": 7,
+      "project": "Adobe"
+    },
+    {
+      "id": 93,
+      "person_id": 8,
+      "units": 5,
+      "project": "Apple"
+    },
+    {
+      "id": 94,
+      "person_id": 3,
+      "units": 2,
+      "project": "Sibelius"
+    },
+    {
+      "id": 95,
+      "person_id": 5,
+      "units": 9,
+      "project": "Microsoft"
+    },
+    {
+      "id": 96,
+      "person_id": 12,
+      "units": 2,
+      "project": "Yahoo"
+    },
+    {
+      "id": 97,
+      "person_id": 10,
+      "units": 10,
+      "project": "Sibelius"
+    },
+    {
+      "id": 98,
+      "person_id": 3,
+      "units": 5,
+      "project": "Yahoo"
+    },
+    {
+      "id": 99,
+      "person_id": 8,
+      "units": 2,
+      "project": "Borland"
+    },
+    {
+      "id": 100,
+      "person_id": 5,
+      "units": 7,
+      "project": "Microsoft"
+    },
+    {
+      "id": 101,
+      "person_id": "1",
+      "project": "Finale",
+      "units": 10
+    }
+  ]
+}
